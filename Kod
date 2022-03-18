@@ -1,4 +1,14 @@
-//https://github.com/ArduinoKod/
+/*
+Malzeme Listesi;
+
+10k POT
+BREADBOARD
+ARDİNUO UNO
+ERKEK ERKEK JUMPER KABLO(LAR)
+LED
+330Ω(OHM) DİRENÇ(TURUNCU - TURUNCU - KAHVERENGİ)
+*/
+
 
 #define led 3
 #define pot A0
@@ -14,4 +24,3 @@ deger = map(deger,0,1023,0,255);
 analogWrite(led,deger);
 }
 
-//https://github.com/ArduinoKod/
